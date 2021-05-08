@@ -1,0 +1,98 @@
+.i1{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+}
+.i2{
+    margin-left: 1px;
+    margin-top: 10px;
+    width: 50%;
+    text-align: center;
+}
+.t1{
+    font-size: 20px;
+    text-align: start;
+    margin-left: 5px;
+    font-family:sans-serif;
+}
+.t2{
+    font-weight:lighter;
+    font-size: 25px;
+}
+label{
+    margin-left: 20px;
+    font-weight: normal;
+}
+input{
+    width: 80%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.b1{
+    margin-right: 150px;
+    margin-top: 5px;
+    box-shadow: 2px 1px rgb(56, 53, 53);
+    width: 60%;
+    font-size: 15px;
+}
+.card{
+    background-color:ghostwhite;
+}
+.b2{
+    margin-left: 40px;
+    margin-top: 5px;
+    width: 60%;
+    padding: 8px;
+    border-radius: 5px;
+    background-color:whitesmoke;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.o1{
+    float:left;
+    color:green;
+}
+.o2{
+    float: left;
+    color:gray;
+}
+.b3{
+    margin-left: 40px;
+    margin-top: 10px;
+    padding: 8px;
+    font-weight: lighter;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: 60%;
+    font-size: 15px;
+}
+.b4{
+    width: 60%;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.l1{
+    font-size:20px;
+    font-weight: 100;
+}
+button:hover{
+    background-color:black;
+    color: white;
+}
+.r1{
+    font-size: 20px;
+}
+.t4{
+    font-weight: lighter;
+    font-size: 18px;
+}
+del{
+    font-weight:100;
+    font-size: 18px;
+}
+.t3{
+    font-weight:600;
+    margin-top: 30px;
+    margin-left: 10px;
+}
