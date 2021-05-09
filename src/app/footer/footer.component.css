@@ -1,0 +1,14 @@
+img{
+ position: relative;
+ border-radius: 8px;
+ color: white;
+ top: 600px;
+ left: 690px;
+}
+h5{
+    position: relative;
+    color: white;
+    top: 620px;
+    font-size: 15px;
+    left: 655px;
+}

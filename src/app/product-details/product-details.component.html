@@ -1,0 +1,10 @@
+<div class="card mx-3" style="width: 18rem;">
+  <div class="card-heading">
+  <img src="{{ProductObj.productImage}}" class="card-img-top" height="150px" alt="">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title text-center" >{{ProductObj.productTitle}}</h5>
+    <p class="card-text text-center">{{ProductObj.description}}</p>
+    <button class="btn btn-warning b1 text-center" (click)="sendProductDetailsParent(ProductObj.productTitle)">ADD TO  PLAYING XI</button>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+
+<h5 class="text-warning"> No of Players Added  :  {{productCount}}</h5>
+<span *ngFor="let title of productsSentByChild and " class="text-warning">{{title}},</span>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mt-5 g-4 mb-5">
+    <div class="col" *ngFor= "let probj of products">
+
+<app-product-details [ProductObj]=probj  (myEvent)="getProductDetailsFromChild($event)"></app-product-details>
+</div>
+</div>
