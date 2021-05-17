@@ -1,11 +1,48 @@
-<div class="container">
-<h1 class="display-6 text-center text-warning mt-3">CHENNAI SUPER KINGS</h1>
-</div>
-<!-- nest products component -->
-<app-products></app-products>
-<!-- nest footer component -->
-<div style="position:absolute; bottom:0px;  width:100%">
-    <div class="row">
-<app-footer></app-footer>
-</div>
-</div>
+<!-- create navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+    <h1 class="navbar-brand  mt-3 f1"><i class="fas fa-music"></i>  MUSIC <h1 class="f2 d-inline">DEWANI</h1></h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-left mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="home" routerLinkActive="active">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="mymusic" routerLinkActive="active">MY MUSIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="downloadapp" routerLinkActive="active">DOWNLOAD APP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="topmusic" routerLinkActive="active">TOPMUSIC</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="products" routerLinkActive="active">FAVORITES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="test" routerLinkActive="active">TESTING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="user" routerLinkActive="active">USERS</a>
+          </li>
+          </ul>
+          <label for="s1"><i class="fas fa-search m1"></i></label>
+          <input type="search" name="" id="s1" class=" form-control " placeholder="Search Music You Love">
+        
+      </div>
+        <a class="nav-link " routerLink="signin" routerLinkActive="active">SIGN IN</a>
+    </div>
+  </nav>
+  
+  
+  <!-- nest products component -->
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+  
+  
+ 

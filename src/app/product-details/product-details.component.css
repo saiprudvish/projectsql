@@ -1,6 +1,12 @@
 .card-heading{
     background-color:yellow;
 }
+.card{
+    background-color:white;
+}
 .b1{
     margin: auto;
+}
+.add-product{
+    background-color:teal;
 }

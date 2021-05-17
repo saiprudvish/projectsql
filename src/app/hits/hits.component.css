@@ -1,0 +1,54 @@
+h1{
+    color: white;
+    font-weight:500;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.b{
+  color: white;
+  font-weight:500;
+  font-size: 25px;
+  margin-top: 15px;
+
+}
+.m{
+  color:white;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card{
+ width:220px;
+ margin-left: 20px;
+ margin-top: 10px;
+ border-radius: 15px;
+}
+.pr{
+  border-radius: 50%;
+  border: black ;
+}
+.i2{
+  border-radius: 0px;
+  margin-bottom: 5px;
+}
+.t1{
+  font-size: 22px;
+  font-weight:500;
+  font-family:'Nova Flat', cursive;
+  margin-top: 25px;
+  color: white;
+}
+.l1{
+  list-style: none;
+  font-size: 20px;
+  margin-left: 25px;
+  color: white;
+}
+.l2{
+  font-weight: lighter;
+  list-style: none;
+  font-size: 15px;
+  color: white;
+  margin-left: 25px;
+}

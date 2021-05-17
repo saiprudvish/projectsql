@@ -1,0 +1,58 @@
+.t1{
+    color: white;
+    font-size: 25px;
+    margin-right: 250px;
+    margin-top: 10px;
+}
+.t2{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-right: 248px;
+    margin-top: 10px;
+}
+.t3{
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    position: relative;
+    top: 190px;
+    right: 180px;
+
+}
+img{
+    margin-right: 180px;
+}
+.inp1{
+    width: 11%;
+    position: relative;
+    top: 102px;
+}
+.inp2{
+    width: 50%;
+    position: relative;
+    top: 40px;
+    left: 90px;
+}
+:placeholder-shown{
+    color: white;
+}
+button{
+    position: relative;
+    right: 280px;
+    top: 100px;
+    border-radius: 20px;
+}
+.ap{
+    position: relative;
+    top:200px ;
+    right: 120px;
+    border: 1px black solid;
+}
+.go{
+    position: relative;
+    top: 150px;
+    border: solid 1px white;
+    border-radius: 5px;
+    left: 100px;;
+}
