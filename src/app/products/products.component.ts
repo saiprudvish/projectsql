@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component ,Input} from '@angular/core';
+import { Product } from '../models/product.model';
 
 
 @Component({
@@ -7,6 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./products.component.css']
 })
 export class ProductsComponent {
+
+  @Input() product1Obj:Product;
 
 
 }

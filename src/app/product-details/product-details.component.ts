@@ -10,17 +10,19 @@ import { Product } from '../models/product.model';
 })
 export class ProductDetailsComponent  {
 
-  //to receive data from parent as input
-  @Input() productObj:Product;
+  // //to receive data from parent as input
+  // @Input() productObj:Product;
 
-  //create a custom event
-  @Output() myEvent=new EventEmitter();
+  // //create a custom event
+  // @Output() myEvent=new EventEmitter();
 
 
-  sendProductDetailsToParent(productTitle){
-      //emit data to parent
-      this.myEvent.emit(productTitle);
-  }
+  // sendProductDetailsToParent(productTitle){
+  //     //emit data to parent
+  //     this.myEvent.emit(productTitle);
+  // }
+@Input() productObj:Product;
+
 
 
 }

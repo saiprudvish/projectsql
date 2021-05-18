@@ -10,7 +10,6 @@ import { CardOneComponent } from './card-one/card-one.component';
 import { CardTwoComponent } from './card-two/card-two.component';
 import { CardThreeComponent } from './card-three/card-three.component';
 import { CardFourComponent } from './card-four/card-four.component';
-import { CardFiveComponent } from './card-five/card-five.component';
 import { CardSixComponent } from './card-six/card-six.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
@@ -25,6 +24,10 @@ import { HitsComponent } from './hits/hits.component';
 import { MobilesComponent } from './mobiles/mobiles.component';
 import { TestingComponent } from './testing/testing.component';
 import { UsersComponent } from './users/users.component';
+import { WebmallComponent } from './webmall/webmall.component';
+import { SongsComponent } from './songs/songs.component';
+import { GamesComponent } from './games/games.component';
+import { TelivisionsComponent } from './telivisions/telivisions.component';
 
 
 @NgModule({
@@ -34,7 +37,6 @@ import { UsersComponent } from './users/users.component';
     CardTwoComponent,
     CardThreeComponent,
     CardFourComponent,
-    CardFiveComponent,
     CardSixComponent,
     ProductsComponent,
     ProductDetailsComponent,
@@ -49,6 +51,11 @@ import { UsersComponent } from './users/users.component';
     MobilesComponent,
     TestingComponent,
     UsersComponent,
+    WebmallComponent,
+    SongsComponent,
+    GamesComponent,
+    TelivisionsComponent,
+  
   ],
   imports: [
     BrowserModule,
