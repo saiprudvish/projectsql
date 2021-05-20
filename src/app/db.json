@@ -1,0 +1,103 @@
+{
+    "users":[
+        {
+            "id":47,
+            "email":"navaneeth45@gmail.com",
+            "name":"Navaneeth",
+            "profilePic":"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+            "address":{
+                "hno":"1-125/5/7",
+                "street":"Tirumala Colony",
+                "pincode":503224
+            },
+            "profession":"Student",
+            "mobileno":8555869281
+
+        },
+        {
+            "id":29,
+            "email":"rohankyatham02@gmail.com",
+            "name":"Rohan",
+            "profilePic":"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+            "address":{
+                "hno":"6-124/5/9",
+                "street":"Vinayak Nagar",
+                "pincode":503221
+            },
+            "profession":"Student",
+            "mobileno":9734369281
+
+        },
+        {
+            "id":60,
+            "email":"abhinav60@gmail.com",
+            "name":"Abhinav",
+            "profilePic":"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+            "address":{
+                "hno":"9-128/5/7",
+                "street":"Pragathi Nagar",
+                "pincode":503222
+            },
+            "profession":"Student",
+            "mobileno":98755869281
+
+        },
+        {
+            "id":44,
+            "email":"pravardhan44@gmail.com",
+            "name":"Pravardhan",
+            "profilePic":"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+            "address":{
+                "hno":"6-125/5",
+                "street":"Teachers Colony",
+                "pincode":503223
+            },
+            "profession":"Student",
+            "mobileno":9870869281
+
+        },
+        {
+            "id":39,
+            "email":"likhith3944@gmail.com",
+            "name":"Likhith",
+            "profilePic":"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+            "address":{
+                "hno":"8-15/5/7",
+                "street":"Tirumala Colony",
+                "pincode":503228
+            },
+            "profession":"Student",
+            "mobileno":9995869281
+
+        },
+        {
+            "id":26,
+            "email":"varunrao2644@gmail.com",
+            "name":"Varun",
+            "profilePic":"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+            "address":{
+                "hno":"18-1/5/7",
+                "street":"Pragathi Nagar",
+                "pincode":503221
+            },
+            "profession":"Student",
+            "mobileno":8987869281
+
+        },
+        {
+            "id":48,
+            "email":"prudvish07@gmail.com",
+            "name":"Prudvish",
+            "profilePic":"https://st.depositphotos.com/2101611/3925/v/600/depositphotos_39258143-stock-illustration-businessman-avatar-profile-picture.jpg",
+            "address":{
+                "hno":"22-1/5/7",
+                "street":"Dhoni colony",
+                "pincode":503220
+            },
+            "profession":"Student",
+            "mobileno":9977869281
+
+        }
+        
+    ]
+}

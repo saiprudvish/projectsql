@@ -1,0 +1,100 @@
+<div class="container">
+    <div class="row">
+        <h3 class="text-center text-white my-5 mt-2 ">COLORS DATA</h3>
+<table class="table text-white text-center">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Year</th>
+            <th>Color</th>
+            <th>Pantone_value</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let postObj of needs.data">
+            <td>{{postObj.id}}</td>
+            <td>{{postObj.year}}</td>
+            <td>{{postObj.color}}</td>
+            <td>{{postObj.pantone_value}}</td>
+
+        </tr>
+    </tbody>
+</table>
+</div>
+<div class="row">
+    <h3 class="text-center text-white ">ADDRESS DATA</h3>
+        <table class="table text-white mt-5 text-center w">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th colspan="6">Address</th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                     <th colspan="3">Company</th>
+                     
+                </tr>
+                <tr>
+                    <th></th>
+                    <th class="e1"></th>
+                    <th></th>
+                    <th></th>
+                    <th rowspan="2">street</th>
+                    <th rowspan="2">suite</th>
+                    <th rowspan="2">City</th>
+                    <th rowspan="2">Zipcode</th>
+                    <th colspan="2">geo</th>
+                    <th></th>
+                    <th></th>
+                    <th>name</th>
+                    <th>Catchphrase</th>
+                    <th>bs</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th>lat</th>
+                    <th>lng</th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+               
+     
+            
+            </thead>
+    
+    
+        <tbody>
+             <tr *ngFor='let obj of ids'>
+                <td>{{obj.id}}</td>
+            <td>{{obj.name}}</td>
+            <td>{{obj.username}}</td>
+            <td>{{obj.email}}</td>
+          
+
+         <td>{{obj.address.street}}</td>
+            <td>{{obj.address.suite}}</td>
+            <td>{{obj.address.city}}</td>
+            <td>{{obj.address.zipcode}}</td>
+            <td>{{obj.address.geo.lat}}</td>
+            <td>{{obj.address.geo.lng}}</td> 
+            <td>{{obj.phone}}</td> 
+            <td>{{obj.website}}</td> 
+            <td>{{obj.company.name}}</td> 
+            <td>{{obj.company.catchPhrase}}</td> 
+            <td>{{obj.company.bs}}</td>
+             </tr>
+        </tbody>
+        </table>
+    
+
+</div>
+</div>

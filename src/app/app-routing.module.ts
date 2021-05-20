@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GamesComponent } from './games/games.component';
+import { NeedComponent } from './need/need.component';
 import { SongsComponent } from './songs/songs.component';
 import { TelivisionsComponent } from './telivisions/telivisions.component';
 import { WebmallComponent } from './webmall/webmall.component';
@@ -8,6 +9,7 @@ import { WebmallComponent } from './webmall/webmall.component';
 
 
 const routes: Routes = [
+  {path:'need',component:NeedComponent},
   {path:'all',component:WebmallComponent,children:[
   
       {path:'games',component:GamesComponent},

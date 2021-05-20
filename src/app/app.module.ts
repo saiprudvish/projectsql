@@ -28,6 +28,7 @@ import { WebmallComponent } from './webmall/webmall.component';
 import { SongsComponent } from './songs/songs.component';
 import { GamesComponent } from './games/games.component';
 import { TelivisionsComponent } from './telivisions/telivisions.component';
+import { NeedComponent } from './need/need.component';
 
 
 @NgModule({
@@ -55,6 +56,7 @@ import { TelivisionsComponent } from './telivisions/telivisions.component';
     SongsComponent,
     GamesComponent,
     TelivisionsComponent,
+    NeedComponent,
   
   ],
   imports: [
