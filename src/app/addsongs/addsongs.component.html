@@ -1,0 +1,21 @@
+<div class="row mt-5">
+    <div class="col-sm-2 col-md-3"></div>
+    <div class="col-sm-8 col-md-6">
+      <form (ngSubmit)="onSubmitNewSong()">
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pt" placeholder="name@example.com" name="productTitle" [(ngModel)]="sModel.songTitle">
+          <label for="pt">Brand</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pi" placeholder="Password" name="productImage" [(ngModel)]="sModel.songImage">
+          <label for="pi">Image URL</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="pd" placeholder="Password" name="description" [(ngModel)]="sModel.songSinger">
+          <label for="pd">Descrption</label>
+        </div>
+        <button class="btn btn-warning float-end" type="submit">Add</button>
+      </form>
+    </div>
+    <div class="col-sm-2 col-md-3"></div>
+  </div>

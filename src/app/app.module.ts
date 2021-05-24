@@ -29,6 +29,11 @@ import { SongsComponent } from './songs/songs.component';
 import { GamesComponent } from './games/games.component';
 import { TelivisionsComponent } from './telivisions/telivisions.component';
 import { NeedComponent } from './need/need.component';
+import { UserComponent } from './user/user.component';
+import { UserdetailsComponent } from './userdetails/userdetails.component';
+import { AddsongsComponent } from './addsongs/addsongs.component';
+import { ViewsongsComponent } from './viewsongs/viewsongs.component';
+import { HeadsetComponent } from './headset/headset.component';
 
 
 @NgModule({
@@ -57,6 +62,11 @@ import { NeedComponent } from './need/need.component';
     GamesComponent,
     TelivisionsComponent,
     NeedComponent,
+    UserComponent,
+    UserdetailsComponent,
+    AddsongsComponent,
+    ViewsongsComponent,
+    HeadsetComponent,
   
   ],
   imports: [

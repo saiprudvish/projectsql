@@ -1,5 +1,5 @@
  export interface Product{
-   productImage:string
+   productImage:string;
     productTitle:string;
     description:string;
     

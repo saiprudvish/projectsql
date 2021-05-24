@@ -10,11 +10,11 @@ import {Observable} from 'rxjs'
 export class DataService {
 //inject httpclient service object ,dependency injection
   constructor(private hc:HttpClient) { }
- 
+  getMobilesData():Observable<Product[]>{
+    //http get
+  return   this.hc.get<Product[]>("assets/songs.json")
+    
+  }
 
-    getMobilesData():Observable<Product[]>{
-      //http get
-    return   this.hc.get<Product[]>("assets/songs.json")
-      
-    }
+ 
 }

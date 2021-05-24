@@ -1,5 +1,5 @@
 {
-    "users":[
+    "usrs":[
         {
             "id":47,
             "email":"navaneeth45@gmail.com",
@@ -99,5 +99,183 @@
 
         }
         
-    ]
+         ],
+    "songs":[ {
+        "id":1,
+        "songTitle":"hasi",
+        "songImage":"https://a10.gaanacdn.com/gn_img/albums/Dk9KNk23Bx/k9KNEqmqbB/size_xxl.webp",
+        "songSinger":"amil mihsra"
+    },
+    {
+        "id":2,
+        "songTitle":"Hey idi nenena",
+        "songImage":"https://a10.gaanacdn.com/gn_img/albums/Dk9KNk23Bx/k9KNEqmqbB/size_xxl.webp",
+        "songSinger":"sid sriram"
+    }
+],
+
+    "users": [
+
+        {
+            "id":3229,
+            "email":"rohan02@gmail.com",
+            "name":"K.Rohan kumar",
+            "profilePic":"https://www.thehansindia.com/images/authorplaceholder.jpg?type=1",
+            "address":{
+                "hno":"1-1-68/3A",
+                "street":"Nizamabad",
+                "pincode":503001
+
+            },
+            "profession":"Student",
+            "mobileno":9875689756
+
+        },
+
+        {
+            "id":3226,
+            "email":"varunrao@gmail.com",
+            "name":"K.Varun Rao",
+            "profilePic":"https://www.thehansindia.com/images/authorplaceholder.jpg?type=1",
+            "address":{
+                "hno":"1-3-45",
+                "street":"Warangal",
+                "pincode":503005
+
+            },
+            "profession":"Student",
+            "mobileno":9348759882
+
+        },
+
+        {
+            "id":3239,
+            "email":"sailikith@gmail.com",
+            "name":"N.Sai Likith",
+            "profilePic":"https://thumbs.dreamstime.com/b/user-profile-caution-important-notice-identification-vector-icon-personal-fake-account-fraud-risk-data-alert-notification-flat-186019759.jpg",
+            "address":{
+                "hno":"5-67",
+                "street":"Karim nagar",
+                "pincode":503003
+
+            },
+            "profession":"Student",
+            "mobileno":9967567884
+
+        },
+
+        {
+            "id":3247,
+            "email":"navaneeth45@gmail.com",
+            "name":"R.Navaneeth",
+            "profilePic":"https://thumbs.dreamstime.com/b/user-profile-caution-important-notice-identification-vector-icon-personal-fake-account-fraud-risk-data-alert-notification-flat-186019759.jpg",
+            "address":{
+                "hno":"45-8/3E",
+                "street":"Armoor",
+                "pincode":503034
+
+            },
+            "profession":"Student",
+            "mobileno":9000786999
+
+        },
+
+        
+
+        {
+            "id":3248,
+            "email":"prudvish07@gmail.com",
+            "name":"R.Sai Prudvish",
+            "profilePic":"https://thumbs.dreamstime.com/b/user-profile-caution-important-notice-identification-vector-icon-personal-fake-account-fraud-risk-data-alert-notification-flat-186019759.jpg",
+            "address":{
+                "hno":"1-67/D",
+                "street":"Karim nagar",
+                "pincode":503003
+
+            },
+            "profession":"Student",
+            "mobileno":9898770003
+
+        },
+
+        {
+            "id":3260,
+            "email":"abhinav@gmail.com",
+            "name":"v.Abhinav",
+            "profilePic":"https://thumbs.dreamstime.com/b/user-profile-caution-important-notice-identification-vector-icon-personal-fake-account-fraud-risk-data-alert-notification-flat-186019759.jpg",
+            "address":{
+                "hno":"3-4-25/3H",
+                "street":"Mancheriyal",
+                "pincode":503007
+
+            },
+            "profession":"Student",
+            "mobileno":9111567890
+
+        },
+
+        {
+            "id":3244,
+            "email":"pravardhan@gmail.com",
+            "name":"B.Pravardhan",
+            "profilePic":"https://thumbs.dreamstime.com/b/user-profile-caution-important-notice-identification-vector-icon-personal-fake-account-fraud-risk-data-alert-notification-flat-186019759.jpg",
+            "address":{
+                "hno":"3-4-25/34",
+                "street":"Hyderabad",
+                "pincode":501003
+
+            },
+            "profession":"Student",
+            "mobileno":9567578557
+
+        },
+
+        {
+            "id":3285,
+            "email":"ramesh@gmail.com",
+            "name":"B. Ramesh",
+            "profilePic":"https://thumbs.dreamstime.com/b/user-profile-caution-important-notice-identification-vector-icon-personal-fake-account-fraud-risk-data-alert-notification-flat-186019759.jpg",
+            "address":{
+                "hno":"3-6-25/34",
+                "street":"Hyderabad",
+                "pincode":501003
+
+            },
+            "profession":"Student",
+            "mobileno":9567576757
+
+        },
+        {
+            "id":3257,
+            "email":"ravi35@gmail.com",
+            "name":"Y.Ravi",
+            "profilePic":"https://thumbs.dreamstime.com/b/user-profile-caution-important-notice-identification-vector-icon-personal-fake-account-fraud-risk-data-alert-notification-flat-186019759.jpg",
+            "address":{
+                "hno":"325/3R",
+                "street":"Vijayawada",
+                "pincode":501003
+
+            },
+            "profession":"Student",
+            "mobileno":9564578557
+
+        },
+        {
+            "id":3256,
+            "email":"koushik@gmail.com",
+            "name":"A.Koushik",
+            "profilePic":"https://thumbs.dreamstime.com/b/user-profile-caution-important-notice-identification-vector-icon-personal-fake-account-fraud-risk-data-alert-notification-flat-186019759.jpg",
+            "address":{
+                "hno":"3-4-25/34",
+                "street":"Guntur",
+                "pincode":501003
+
+            },
+            "profession":"Student",
+            "mobileno":9567590557
+
+        }
+
+
+        ]
 }

@@ -7,11 +7,9 @@ import { ReqresService } from '../reqres.service';
   styleUrls: ['./need.component.css']
 })
 export class NeedComponent implements OnInit {
+  constructor(private nsObj:ReqresService) { }
   needs;
   ids;
-
-  constructor(private nsObj:ReqresService) { }
-
   ngOnInit(): void {
     this.nsObj.getcolors().subscribe(
       userData=>{

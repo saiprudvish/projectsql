@@ -9,7 +9,7 @@ import { post } from './models/posts.model';
 export class FakedataService {
   //inject httpclient module
   constructor(private hc:HttpClient) { }
-
+  
   getPosts():Observable<post[]>{
     return this.hc.get<post[]>('https://jsonplaceholder.typicode.com/posts')
   }
@@ -17,4 +17,5 @@ export class FakedataService {
   getUsers():Observable<any>{
     return this.hc.get<any>("https://reqres.in/api/users?page=2");
    }
+
 }

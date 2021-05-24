@@ -9,11 +9,10 @@ import { FakedataService } from '../fakedata.service';
 export class UsersComponent implements OnInit {
 
   users;
-
   constructor(private fsObj:FakedataService) { }
 
   ngOnInit(): void {
-     this.fsObj.getUsers().subscribe(
+    this.fsObj.getUsers().subscribe(
       userData=>{
         //assign posts
         this.users=userData;

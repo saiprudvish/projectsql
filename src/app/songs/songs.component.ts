@@ -8,8 +8,8 @@ import { SongService } from '../song.service';
   styleUrls: ['./songs.component.css']
 })
 export class SongsComponent implements OnInit {
-  songs:Product[]=[];
 
+  songs:Product[]=[];
   constructor(private songObj:SongService) { }
 
   ngOnInit(): void {

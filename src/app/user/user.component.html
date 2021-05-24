@@ -1,0 +1,18 @@
+<table class="table text-center text-dark mt-5">
+    <div class="background w-75 d-block mx-auto">
+    <table class="table table-success text-center p-5">
+    <thead class="thead">
+        <tr class="text-center">
+            <th>ID</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let postObj of users">
+            <td class="i1"><button class="btn btn-sm " (click)="onSelectId(postObj.id)">{{postObj.id}}</button></td>
+            <td class="i1">{{postObj.email}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</table>

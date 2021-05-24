@@ -17,7 +17,7 @@ export class GameService {
   {
   productTitle:"Shadow Fight 2",
   description:"",
-  productImage:"https://play-lh.googleusercontent.com/rabSKKn43Tc_Xgvz68bblgxlpjgnRVsaN5W7sUloHlASTsTdJGoxtfaxiIMHfEkg3g"
+  productImage:"https://s3b.cashify.in/gpro/uploads/2020/11/26102910/PUBG-Mobile-.jpg"
   },
   
   {
