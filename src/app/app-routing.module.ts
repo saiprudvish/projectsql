@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddsongsComponent } from './addsongs/addsongs.component';
+import { EnterComponent } from './enter/enter.component';
 import { GamesComponent } from './games/games.component';
 import { HeadsetComponent } from './headset/headset.component';
+import { LoginComponent } from './login/login.component';
 import { NeedComponent } from './need/need.component';
 import { SongsComponent } from './songs/songs.component';
 import { TelivisionsComponent } from './telivisions/telivisions.component';
@@ -16,6 +18,7 @@ import { WebmallComponent } from './webmall/webmall.component';
 const routes: Routes = [
   {path:'need',component:NeedComponent},
   {path:'user',component:UserComponent},
+  {path:'login',component:EnterComponent},
   {path:'user/:id', component:UserdetailsComponent},
   {path:'all',component:WebmallComponent,children:[
   
@@ -28,7 +31,8 @@ const routes: Routes = [
     {path:'addsongs',component:AddsongsComponent},
     {path:'',redirectTo:"musi/viewsongs",pathMatch:"full"}
     
-  ]}
+  ]},
+  { path: 'admin', loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule) }
   
 
 ];

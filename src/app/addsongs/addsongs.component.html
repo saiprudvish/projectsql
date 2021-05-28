@@ -3,15 +3,15 @@
     <div class="col-sm-8 col-md-6">
       <form (ngSubmit)="onSubmitNewSong()">
         <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="pt" placeholder="name@example.com" name="productTitle" [(ngModel)]="sModel.songTitle">
+          <input type="text" class="form-control" id="pt" placeholder="name@example.com" name="productTitle" [(ngModel)]="sModel.productTitle">
           <label for="pt">Brand</label>
         </div>
         <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="pi" placeholder="Password" name="productImage" [(ngModel)]="sModel.songImage">
+          <input type="text" class="form-control" id="pi" placeholder="Password" name="productImage" [(ngModel)]="sModel.productImage">
           <label for="pi">Image URL</label>
         </div>
         <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="pd" placeholder="Password" name="description" [(ngModel)]="sModel.songSinger">
+          <input type="text" class="form-control" id="pd" placeholder="Password" name="description" [(ngModel)]="sModel.description">
           <label for="pd">Descrption</label>
         </div>
         <button class="btn btn-warning float-end" type="submit">Add</button>

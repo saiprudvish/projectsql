@@ -34,6 +34,7 @@ import { UserdetailsComponent } from './userdetails/userdetails.component';
 import { AddsongsComponent } from './addsongs/addsongs.component';
 import { ViewsongsComponent } from './viewsongs/viewsongs.component';
 import { HeadsetComponent } from './headset/headset.component';
+import { EnterComponent } from './enter/enter.component';
 
 
 @NgModule({
@@ -67,6 +68,7 @@ import { HeadsetComponent } from './headset/headset.component';
     AddsongsComponent,
     ViewsongsComponent,
     HeadsetComponent,
+    EnterComponent,
   
   ],
   imports: [

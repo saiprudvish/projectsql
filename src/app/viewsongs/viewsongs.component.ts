@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Song } from '../models/songs.model';
+import { Product } from '../models/product.model';
 import { ReqresService } from '../reqres.service';
 
 @Component({
@@ -8,7 +8,7 @@ import { ReqresService } from '../reqres.service';
   styleUrls: ['./viewsongs.component.css']
 })
 export class ViewsongsComponent implements OnInit {
-  songs:Song[];
+  songs:Product[];
   constructor(private rObj:ReqresService) { }
 
   ngOnInit(): void {

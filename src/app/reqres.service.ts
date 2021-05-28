@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { Product } from './models/product.model';
 import { Song} from './models/songs.model';
 
 @Injectable({
@@ -18,8 +19,8 @@ export class ReqresService {
   getcolors():Observable<any>{
     return this.hc.get<any>("https://reqres.in/api/unknown");
    }
-   getsongs():Observable<Song[]>{
-    return this.hc.get<Song[]>("http://localhost:3000/songs");
+   getsongs():Observable<Product[]>{
+    return this.hc.get<Product[]>("http://localhost:3000/songs");
    }
 //to save or create new song
 createSong(songObj):Observable<any>{

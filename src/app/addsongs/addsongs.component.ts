@@ -1,13 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {Song} from '../models/songs.model'
+import {Product} from 'src/app/models/product.model';
 import { ReqresService } from '../reqres.service';
+import { from } from 'rxjs';
 @Component({
   selector: 'app-addsongs',
   templateUrl: './addsongs.component.html',
   styleUrls: ['./addsongs.component.css']
 })
 export class AddsongsComponent implements OnInit {
+  sModel;
 
   constructor(private rObj:ReqresService,private router:Router) { }
   
@@ -15,7 +17,6 @@ export class AddsongsComponent implements OnInit {
   ngOnInit(): void {
 
   }
-  sModel=new Song('','','');
   onSubmitNewSong(){
     this.rObj.createSong(this.sModel).subscribe(
       res=>{

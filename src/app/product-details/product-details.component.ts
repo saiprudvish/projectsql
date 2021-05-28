@@ -2,6 +2,7 @@
 import { Component, Input, EventEmitter, Output} from '@angular/core';
 
 import { Product } from '../models/product.model';
+import { Song } from '../models/songs.model';
 
 @Component({
   selector: 'app-product-details',
@@ -22,6 +23,8 @@ export class ProductDetailsComponent  {
   //     this.myEvent.emit(productTitle);
   // }
 @Input() productObj:Product;
+@Input() productO2bj:Product;
+
 
 
 
