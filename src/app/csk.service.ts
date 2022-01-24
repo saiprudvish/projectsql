@@ -19,6 +19,9 @@ export class CskService {
         
       return this.hc.get<any>('http://localhost:3000/users/'+id)
     }
-  
+    getUser():Observable<any>{
+        
+      return this.hc.get<any>('/user/data')
+    }
   
 }

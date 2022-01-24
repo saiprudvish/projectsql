@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AddsongsComponent } from './addsongs/addsongs.component';
+import { CalComponent } from './cal/cal.component';
 import { EnterComponent } from './enter/enter.component';
 import { GamesComponent } from './games/games.component';
 import { HeadsetComponent } from './headset/headset.component';
@@ -16,9 +17,10 @@ import { WebmallComponent } from './webmall/webmall.component';
 
 
 const routes: Routes = [
+  {path:'cal',component:CalComponent},
   {path:'need',component:NeedComponent},
   {path:'user',component:UserComponent},
-  {path:'login',component:EnterComponent},
+  {path:'loin',component:EnterComponent},
   {path:'user/:id', component:UserdetailsComponent},
   {path:'all',component:WebmallComponent,children:[
   
@@ -38,7 +40,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{useHash:true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

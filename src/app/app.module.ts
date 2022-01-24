@@ -35,6 +35,7 @@ import { AddsongsComponent } from './addsongs/addsongs.component';
 import { ViewsongsComponent } from './viewsongs/viewsongs.component';
 import { HeadsetComponent } from './headset/headset.component';
 import { EnterComponent } from './enter/enter.component';
+import { CalComponent } from './cal/cal.component';
 
 
 @NgModule({
@@ -69,6 +70,7 @@ import { EnterComponent } from './enter/enter.component';
     ViewsongsComponent,
     HeadsetComponent,
     EnterComponent,
+    CalComponent,
   
   ],
   imports: [
